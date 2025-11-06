@@ -37,6 +37,10 @@
     color: #C7C7C7;
     text-decoration: none;
 }
+.nav-item:hover {
+    color: #494141;
+    transition: 0.5s;
+}
 
 .main-first {
     display: flex;
@@ -69,11 +73,15 @@ h1 {
     position: relative;
     padding: 14px;
 }
-
+.github:hover {
+    background-color: #383333;
+    transition: 0.5s;
+}
 .fa-brands {
     position: absolute;
     font-size: 26px;
     background-color: #222222;
+    border-radius: 50%;
 }
 
 .linkedin {
@@ -99,6 +107,11 @@ h1 {
     border: none;
     font-family: "Manrope", serif;
     font-weight: 700;
+}
+.action .btn:hover {
+    background-color: #97a852;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 .main-second {
@@ -203,6 +216,10 @@ h1 {
     font-weight: 700;
     font-size: 16px;
     margin-top: 48px;
+}
+.project-links a:hover {
+    color: #97a852;
+    transition: 0.5s;
 }
 
 .project-card-1 , .project-card-2 {
@@ -310,6 +327,11 @@ form .btn {
     border: none;
     font-family: "Manrope", serif;
     font-weight: 700;
+}
+form .btn:hover {
+    background-color: #97a852;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 form {
