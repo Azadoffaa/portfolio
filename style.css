@@ -395,3 +395,29 @@ input {
     text-decoration: none;
     color: white;
 }
+.project-container {
+    display: flex;
+    gap: 20px;
+}
+.first-project img{
+    margin-top: 20px;
+    border-radius: 12px;
+    width: 500px;
+    height: 300px;
+}
+.first-project h2 {
+    color: #fff;
+    font-family: "Manrope", serif;
+    font-weight: 700;
+}
+.first-project a {
+    text-decoration: none;
+    font-family: "Manrope", serif;
+    font-weight: 500;
+    color: #D3E97A;
+    margin-right: 10px;
+}
+.project-container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
