@@ -1,0 +1,423 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #0A0A0A;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #C7C7C7;
+    font-family: "Bebas Neue",serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    
+}
+
+.nav-list {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-item {
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #C7C7C7;
+    text-decoration: none;
+}
+.nav-item:hover {
+    color: #494141;
+    transition: 0.5s;
+}
+
+.main-first {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.main-first p {
+    font-family: "Manrope" ,serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #C7C7C7;
+}
+
+h1 {
+    color: #fff;
+    font-family: "Bebas Neue" , serif;
+    font-weight: 400;
+    font-size: 101px;
+}
+
+.github {
+    color: #D3E97A;
+    background-color: #222222;
+    width: 54px;
+    height: 54px;
+    border-radius: 100px;
+    position: relative;
+    padding: 14px;
+}
+.github:hover {
+    background-color: #383333;
+    transition: 0.5s;
+}
+.fa-brands {
+    position: absolute;
+    font-size: 26px;
+    background-color: #222222;
+    border-radius: 50%;
+}
+
+.linkedin {
+    color: #D3E97A;
+    background-color: #222222;
+    width: 54px;
+    height: 54px;
+    border-radius: 100px;
+    position: relative;
+    padding: 14px;
+}
+
+.action {
+    display: flex;
+    padding-top: 40px;
+    gap: 16px;
+}
+
+.action .btn {
+    background-color: #D3E97A;
+    padding: 19px 24px;
+    border-radius: 100px;
+    border: none;
+    font-family: "Manrope", serif;
+    font-weight: 700;
+}
+.action .btn:hover {
+    background-color: #97a852;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main-second {
+    color: #fff;
+    border-top: 1px solid #484848;
+    border-bottom: 1px solid #484848;
+    margin-bottom: 122px;
+}
+
+.project-text {
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.main-second h2 {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-size: 76px;
+}
+
+.project-text p {
+    font-family: "Manrope", serif;
+    font-weight: 400;
+    color: #C7C7C7;
+    font-size: 18px;
+}
+
+.project-img img {
+    margin-left: 57px;
+    margin-right: 57px;
+    border-radius: 12px;
+    width: 500px;
+    height: 300px;
+}
+
+.project-img {
+    width: 600px;
+    height: 600px;
+    background-color: #1A1A1A;
+    border-radius: 12px;
+}
+
+.project-img button {
+    background-color: #0A0A0A;
+    color: #fff;
+    font-family: "Manrope" , serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: none;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 73px;
+}
+
+.project-card-1 , .project-card-2 {
+    display: flex;
+}
+
+.project-info {
+    margin-left: 48px;
+    
+}
+
+.project-info h4 {
+    font-family: "Manrope",serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.project-info p {
+    font-family: "Manrope" , serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #C7C7C7;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.project-list-first {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #484848;
+    border-bottom: 1px solid #484848;
+}
+
+.project-list-second {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #484848;
+}
+
+.project-links {
+    display: flex;
+    gap: 24px;
+}
+
+.project-links a {
+    color: #D3E97A;
+    font-family: "Manrope", serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 48px;
+}
+.project-links a:hover {
+    color: #97a852;
+    transition: 0.5s;
+}
+
+.project-card-1 , .project-card-2 {
+    margin-bottom: 120px;
+}
+
+.about {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.about h2 {
+    font-family: "Bebas Neue",serif;
+    font-weight: 400;
+    font-size: 101px;
+}
+
+.about-text p {
+    width: 704px;
+    color: #C7C7C7;
+    font-family: "Manrope",serif;
+    font-weight: 400;
+    margin-bottom: 43px;
+    margin-top: 16px;
+}
+
+.about-text h4 {
+    font-family: "Manrope" , serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+.about-text a {
+    margin-bottom: 416px;
+}
+
+.border {
+    border-top: 1px solid #484848;
+}
+
+footer {
+    color: #fff;
+    display: flex;
+}
+
+
+
+footer h2 {
+    font-family: "Bebas Neue",serif;
+    font-weight: 400;
+    font-size: 76px;
+    margin-top: 55px;
+}
+
+footer p {
+    font-family: "Manrope",serif;
+    color: #C7C7C7;
+}
+
+footer span {
+    color: #fff;
+    text-decoration: underline #D3E97A ;
+}
+
+.mb {
+    margin-bottom: 40px;
+}
+
+.fa-brands {
+    color: #D3E97A;
+}
+.logos {
+    display: flex;
+    gap: 24px;
+}
+
+.bottom-text {
+    margin-top: 330px;
+    padding-bottom: 80px;
+}
+
+.connect-text {
+    width: 600px;
+}
+
+form {
+    margin-top: 65px;
+    width: 600px;
+    display: block;
+}
+
+form input {
+    width: 600px;
+    height: 51px;
+    margin-bottom: 24px;
+}
+
+.message {
+    height: 156px;
+}
+
+form .btn {
+    background-color: #D3E97A;
+    padding: 19px 24px;
+    border-radius: 100px;
+    border: none;
+    font-family: "Manrope", serif;
+    font-weight: 700;
+}
+form .btn:hover {
+    background-color: #97a852;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+form {
+    color: #C7C7C7;
+    font-family: "Manrope" ,serif;
+    font-weight: 500;
+}
+
+input {
+    border: none;
+    background-color: #1A1A1A;
+}
+
+@media (max-width:375px) {
+        .main-first {
+            display: block;
+            margin-right: 16px;
+            margin-left: 16px;
+        }
+        .main-first img {
+            width: 343px;
+            height: 400px;
+            margin-top: 64px;
+        }
+        .container {
+            width: 343px;
+        }
+        .project-img {
+            width: 343px;
+            height: 343px;
+            
+        }
+        .project-img img {
+            width: 243px;
+            height: 243px;
+        }
+        .project-card-1 {
+            display: inline;
+        }
+        .project-card-2 {
+            display: inline;
+        }
+        .about {
+            display: block;
+        }
+        footer {
+            display: block;
+        }
+}
+
+.action .btn {
+    background-color: #D3E97A;
+    padding: 19px 24px;
+    border-radius: 100px;
+    border: none;
+    font-family: "Manrope", serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+.project-container {
+    display: flex;
+    gap: 20px;
+}
+.first-project img{
+    margin-top: 20px;
+    border-radius: 12px;
+    width: 500px;
+    height: 300px;
+}
+.first-project h2 {
+    color: #fff;
+    font-family: "Manrope", serif;
+    font-weight: 700;
+}
+.first-project a {
+    text-decoration: none;
+    font-family: "Manrope", serif;
+    font-weight: 500;
+    color: #D3E97A;
+    margin-right: 10px;
+}
+.project-container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
